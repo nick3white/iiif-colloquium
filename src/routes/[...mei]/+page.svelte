@@ -26,14 +26,16 @@ function makeGradient(n, offset) {
 }
 
 function getFontSize(a, ww, wh ){
-
-  let r = ww / wh
+  let qh = wh * 0.9;
+  let qw = ww * 0.8;
+  let r = qw / qh
+  console.log("title legnth = ", a)
 
   let h = Math.sqrt(a / r)
   let w = r * h
 
-  let fw = ww / w;
-  let fh = wh / h;
+  let fw = qw / w;
+  let fh = qh / h;
   let fontSize = (fh + fw) / 2 
 
   return Math.round( fontSize )
@@ -125,8 +127,8 @@ img {
   transition: top 500ms;
   overflow: hidden;
   box-shadow: 0 0 7px 7px color-mix(in oklab, var(--background), transparent);
-  margin: 10vh 10vw;
-  width: 80vw;
+  margin: 10vh 15vw;
+  width: 70vw;
   height: 80vh;
   color: var(--background);
   /* background: rgb(var(--color2)); */
