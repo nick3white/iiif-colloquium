@@ -6,7 +6,7 @@
         "Sublimology",
         "Kant",
         "Burke",
-        "<s aria-label='stricken text'>Bataille</s> <small>( nsfw )</small>",
+        "<s aria-label='stricken text'>Bataille</s>",
         "Blanchot"
       ]
     },
@@ -57,12 +57,12 @@
   ],
   [
     {
-      "title": "Scale",
-      "image": "<a href='https://mappingmovement.newberry.org/mapping-communication/' target='_blank'><img src='/mm-scale.webp' alt='a screenshot from the mapping movement website' /></a>"
-    },
-    {
       "title": "Fixed Positioning",
       "image": "<a href='https://mappingmovement.newberry.org/maps-movement-lit/' target='_blank'><img src='/mm-fixed-position.webp' alt='a screenshot from the mapping movement website' /></a>"
+    },
+    {
+      "title": "Scale",
+      "image": "<a href='https://mappingmovement.newberry.org/mapping-communication/' target='_blank'><img src='/mm-scale.webp' alt='a screenshot from the mapping movement website' /></a>"
     }
   ],
   [
@@ -77,12 +77,21 @@
   ],
   [
     {
-      "title": "",
-      "text": []
+      "title": "conclusion",
+      "text": [
+        "iiiif ❌",
+        "iiif ✅",
+        "iif ❌",
+        "if ¯\\_(ツ)_/¯"
+      ]
     },
     {
-      "title": "",
-      "text": []
+      "title": "questions?",
+      "text": [
+        "?",
+        "??",
+        "???"
+      ]
     }
   ]
 ]

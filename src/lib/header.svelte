@@ -6,7 +6,7 @@ import '$lib/app.css'
 <header>
 {#each meis as mei, i}
     <a href="/{mei === $page.params.mei ? `${mei}/1` : mei}" class="mei{mei}">
-   <img src="/iiimages/{mei}-1.jpg" alt="wallpaper" />
+   <img src="/iiimages/sm/{mei}-1.webp" alt="wallpaper" />
    <!-- <img src="https://collections.newberry.org/IIIF3/Image/{mei}/full/50,200/0/default.jpg" alt="wallpaper" /> -->
     </a> 
 {/each}

@@ -26,6 +26,7 @@ function makeGradient(n, offset) {
 }
 
 function getFontSize(a, ww, wh ){
+
   let r = ww / wh
 
   let h = Math.sqrt(a / r)
@@ -33,7 +34,7 @@ function getFontSize(a, ww, wh ){
 
   let fw = ww / w;
   let fh = wh / h;
-  let fontSize = (fh + fw) /2 
+  let fontSize = (fh + fw) / 2 
 
   return Math.round( fontSize )
  
@@ -46,7 +47,7 @@ $inspect("fontsize: " , fontSize)
 <svelte:window bind:innerWidth={ww} bind:innerHeight={wh}/>
 <main id="mei{mei}" on:click={() => active = (active + 1) % 3}>
   {#if pathIndex}
-    <img src="/iiimages/{mei}-1.jpg" alt="wallpaper" />
+    <img src="/iiimages/{mei}-1.webp" alt="wallpaper" />
   {:else}
     <!-- <img src="https://collections.newberry.org/IIIF3/Image/{mei}/square/max/0/default.jpg" alt="wallpaper" /> -->
   {/if}
